@@ -2,6 +2,9 @@
     "name": "invoiceplane/module-core",
     "description": "",
     "authors": [{}],
+    "require": {
+		"composer/installers": "~1.0"
+    },
     "extra": {
         "laravel": {
             "providers": [
@@ -12,7 +15,7 @@
             }
         },
 		"installer-paths": {
-		  "Modules/Core": ["invoiceplane/module-core"]
+		  "Modules/{$name}": ["invoiceplane/module-core"]
 		}
     },
     "autoload": {
