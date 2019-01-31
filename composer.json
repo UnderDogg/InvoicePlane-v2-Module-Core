@@ -5,6 +5,9 @@
         {
         }
     ],
+	"config": {
+		"vendor-dir": "Modules\\Core"
+	},
     "extra": {
         "laravel": {
             "providers": [
