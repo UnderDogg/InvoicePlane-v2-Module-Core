@@ -1,22 +1,19 @@
 {
     "name": "invoiceplane/module-core",
     "description": "",
-    "authors": [
-        {
-        }
-    ],
-	"config": {
-		"vendor-dir": "Modules"
-	},
+    "authors": [{}],
     "extra": {
         "laravel": {
             "providers": [
                 "Modules\\Core\\Providers\\CoreServiceProvider"
             ],
             "aliases": {
-                
+
             }
-        }
+        },
+		"installer-paths": {
+		  "Modules/Core": ["invoiceplane/module-core"]
+		}
     },
     "autoload": {
         "psr-4": {
