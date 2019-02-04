@@ -21,9 +21,9 @@
 </head>
 <body class="app header-fixed sidebar-fixed aside-menu-fixed sidebar-lg-show">
     <div id="app">
-        @include('partials.header')
+        @include('core::partials.header')
         <div class="app-body">
-            @include('partials.sidebar')
+            @include('core::partials.sidebar')
             <main class="main">
                 <div class="container-fluid">
                     <div class="animated fadeIn">
@@ -31,9 +31,9 @@
                     </div>
                 </div>
             </main>
-            @include('partials.aside')
+            @include('core::partials.aside')
 		</div>
-        @include('partials.footer')
+        @include('core::partials.footer')
 	</div>
 </body>
 </html>

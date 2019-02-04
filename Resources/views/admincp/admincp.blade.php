@@ -44,17 +44,17 @@
 
 <body class="app header-fixed sidebar-fixed aside-menu-fixed sidebar-lg-show">
     <div id="app">
-        @include('partials.admincpheader')
+        @include('core::partials.admincpheader')
         <div class="app-body">
-            @include('partials.sidebar')
+            @include('core::partials.sidebar')
             <main class="main">
                 <div class="container-fluid">
                         @yield('content')
                 </div>
             </main>
-            @include('partials.aside')
+            @include('core::partials.aside')
 		</div>
-        @include('partials.admincpfooter')
+        @include('core::partials.admincpfooter')
     </div>
 
     <!-- Scripts -->

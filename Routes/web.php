@@ -10,7 +10,6 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-
-Route::prefix('core')->group(function() {
-    Route::get('/', 'CoreController@index');
+Route::get('/admincp', function () {
+    return view('core::admincp.dashboard');
 });
