@@ -13,3 +13,7 @@
 Route::get('/admincp', function () {
     return view('core::admincp.dashboard');
 });
+
+Route::get('/ownercp', function () {
+    return view('core::ownercp.dashboard');
+});
