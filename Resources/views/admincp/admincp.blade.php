@@ -42,7 +42,7 @@
 1. '.footer-fixed' - Fixed footer
 --}}
 
-<body class="app header-fixed sidebar-fixed aside-menu-fixed sidebar-lg-show">
+<body class="app header-fixed footer-fixed sidebar-fixed sidebar-minimized aside-menu-fixed sidebar-lg-show">
     <div id="app">
         @include('core::partials.admincpheader')
         <div class="app-body">
