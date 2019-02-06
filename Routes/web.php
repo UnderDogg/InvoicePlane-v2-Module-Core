@@ -17,3 +17,11 @@ Route::get('/admincp', function () {
 Route::get('/ownercp', function () {
     return view('core::ownercp.dashboard');
 });
+
+Route::prefix('admincp')->middleware('role:owner|superadministrator|administrator')->group(function () {
+  Route::get('/', 'DashboardController@index');
+  Route::get('/dashboard', 'DashboardController@dashboard')->name('admincp.dashboard');
+  Route::resource('/staff', 'StaffController');
+  Route::resource('/permissions', 'PermissionsController', ['except' => 'destroy']);
+  Route::resource('/roles', 'RolesController', ['except' => 'destroy']);
+});
