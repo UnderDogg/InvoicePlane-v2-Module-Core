@@ -11,27 +11,11 @@
         <span class="navbar-toggler-icon">
         </span>
     </button>
-    <ul class="nav navbar-nav">
-        <li class="nav-item px-3 dropdown d-md-down-none">
-
-		<a class="nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
-          aria-expanded="false">Dashboard
-        </a>
-	        <div class="dropdown-menu dropdown-menu-right dropdown-menu-lg">
-	          <div class="dropdown-header text-center">
-	            <strong>Dashboard Menu (Header)</strong>
-	          </div>
-	          <a class="dropdown-item" href="#">
-	            <i class="icon-user-follow text-success"></i> Dashboard Item</a>
-	          <a class="dropdown-item" href="#">
-	            <i class="icon-user-unfollow text-danger"></i> Dashboard Item</a>
-	          <a class="dropdown-item" href="#">
-	            <i class="icon-chart text-info"></i> Dashboard Item</a>
-	          <a class="dropdown-item" href="#">
-	            <i class="icon-basket-loaded text-primary"></i> Dashboard Item</a>
-	          <a class="dropdown-item" href="#">
-	            <i class="icon-speedometer text-warning"></i> Dashboard Item</a>
-	        </div>
+    <ul class="nav navbar-nav d-md-down-none">
+        <li class="nav-item px-3">
+            <a class="nav-link" href="#">
+                Dashboard
+            </a>
         </li>
         <li class="nav-item px-3">
             <a class="nav-link" href="#">

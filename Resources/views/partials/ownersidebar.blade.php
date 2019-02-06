@@ -3,14 +3,14 @@
     <nav class="sidebar-nav">
         <ul class="nav">
             <li class="nav-item">
-                <a class="nav-link active" href="/admincp">
-                    <i class="nav-icon icon-speedometer"></i> Dashboard
+                <a class="nav-link active" href="/ownercp">
+                    <i class="nav-icon icon-speedometer"></i> Owner Dashboard
                 </a>
             </li>
-            <li class="nav-title">Settings</li>
+            <li class="nav-title">Owner Settings</li>
             <li class="nav-item">
-                <a class="nav-link" href="/admincp/users">
-                    <i class="nav-icon icon-user"></i> Users
+                <a class="nav-link" href="/ownercp/admins">
+                    <i class="nav-icon icon-user"></i> Add Admins
                 </a>
             </li>
             <li class="nav-item">
