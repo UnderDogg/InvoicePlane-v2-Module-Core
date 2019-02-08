@@ -1,4 +1,4 @@
-@extends('layouts.manage')
+@extends('core::admincp.admincp')
 
 @section('content')
   <div class="flex-container">
