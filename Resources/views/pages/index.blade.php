@@ -545,7 +545,7 @@
                                 <tr>
                                     <td class="text-center">
                                         <div class="avatar">
-                                            <img class="img-avatar" src="img/avatars/1.jpg" alt="admin@bootstrapmaster.com">
+                                            <img class="img-avatar" src="/img/avatars/1.jpg" alt="admin@bootstrapmaster.com">
                                             <span class="avatar-status badge-success"></span>
                                         </div>
                                     </td>
@@ -582,7 +582,7 @@
                                 <tr>
                                     <td class="text-center">
                                         <div class="avatar">
-                                            <img class="img-avatar" src="img/avatars/2.jpg" alt="admin@bootstrapmaster.com">
+                                            <img class="img-avatar" src="/img/avatars/2.jpg" alt="admin@bootstrapmaster.com">
                                             <span class="avatar-status badge-danger"></span>
                                         </div>
                                     </td>
@@ -619,7 +619,7 @@
                                 <tr>
                                     <td class="text-center">
                                         <div class="avatar">
-                                            <img class="img-avatar" src="img/avatars/3.jpg" alt="admin@bootstrapmaster.com">
+                                            <img class="img-avatar" src="/img/avatars/3.jpg" alt="admin@bootstrapmaster.com">
                                             <span class="avatar-status badge-warning"></span>
                                         </div>
                                     </td>
@@ -656,7 +656,7 @@
                                 <tr>
                                     <td class="text-center">
                                         <div class="avatar">
-                                            <img class="img-avatar" src="img/avatars/4.jpg" alt="admin@bootstrapmaster.com">
+                                            <img class="img-avatar" src="/img/avatars/4.jpg" alt="admin@bootstrapmaster.com">
                                             <span class="avatar-status badge-secondary"></span>
                                         </div>
                                     </td>
@@ -693,7 +693,7 @@
                                 <tr>
                                     <td class="text-center">
                                         <div class="avatar">
-                                            <img class="img-avatar" src="img/avatars/5.jpg" alt="admin@bootstrapmaster.com">
+                                            <img class="img-avatar" src="/img/avatars/5.jpg" alt="admin@bootstrapmaster.com">
                                             <span class="avatar-status badge-success"></span>
                                         </div>
                                     </td>
@@ -730,7 +730,7 @@
                                 <tr>
                                     <td class="text-center">
                                         <div class="avatar">
-                                            <img class="img-avatar" src="img/avatars/6.jpg" alt="admin@bootstrapmaster.com">
+                                            <img class="img-avatar" src="/img/avatars/6.jpg" alt="admin@bootstrapmaster.com">
                                             <span class="avatar-status badge-danger"></span>
                                         </div>
                                     </td>
