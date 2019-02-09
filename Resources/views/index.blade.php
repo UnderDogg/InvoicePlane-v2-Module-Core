@@ -1,9 +1,19 @@
 @extends('core::layouts.master')
 
 @section('content')
-    <h1>Hello World</h1>
+<main class="main">
+    <!-- Breadcrumb-->
+    {{ Breadcrumbs::render('dashboard') }}
+    <div class="container-fluid">
 
-    <p>
-        This view is loaded from module: {!! config('core.name') !!}
-    </p>
-@stop
+        <div class="row">
+
+            <div class="col-lg-12">
+                <div class="col-lg-6">test</div>
+                <div class="col-lg-6">test2</div>
+            </div>
+        </div>
+
+    </div>
+</main>
+@endsection

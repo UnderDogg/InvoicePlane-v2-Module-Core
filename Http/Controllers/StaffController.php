@@ -93,7 +93,7 @@ class StaffController extends Controller
     public function show($id)
     {
       $staff = Staff::where('id', $id)->with('roles')->first();
-      return view("core::admincp.staff.show")->withStaff($staff);
+      return view("core::admincp.staff.show")->withStaffmember($staff);
     }
 
     /**

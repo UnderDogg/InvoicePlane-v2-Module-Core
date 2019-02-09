@@ -21,6 +21,7 @@ Route::get('/ownercp', function () {
 Route::prefix('admincp')->middleware('role:owner|superadministrator|administrator')->group(function () {
   Route::get('/', 'DashboardController@index');
   Route::get('/dashboard', 'DashboardController@dashboard')->name('admincp.dashboard');
+  Route::post('/staff/logout', 'AuthController@logout')->name('staff.logout');
   Route::resource('/staff', 'StaffController');
   Route::resource('/permissions', 'PermissionsController', ['except' => 'destroy']);
   Route::resource('/roles', 'RolesController', ['except' => 'destroy']);

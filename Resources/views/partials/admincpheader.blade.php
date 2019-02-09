@@ -1,22 +1,29 @@
 <header class="app-header navbar">
-    <button class="navbar-toggler sidebar-toggler d-lg-none mr-auto" data-toggle="sidebar-show" type="button">
-        <span class="navbar-toggler-icon">
-        </span>
+    <button class="navbar-toggler sidebar-toggler d-lg-none mr-auto" type="button" data-toggle="sidebar-show">
+        <span class="navbar-toggler-icon"></span>
     </button>
     <a class="navbar-brand" href="#">
         <img class="navbar-brand-full" src="/img/brand/logo.svg" width="89" height="25" alt="CoreUI Logo">
         <img class="navbar-brand-minimized" src="/img/brand/sygnet.svg" width="30" height="30" alt="CoreUI Logo">
     </a>
-    <button class="navbar-toggler sidebar-toggler d-md-down-none" data-toggle="sidebar-lg-show" type="button">
-        <span class="navbar-toggler-icon">
-        </span>
+    <button class="sidebar-minimizer brand-minimizer" type="button">
+        <span class="navbar-toggler-icon"></span>
     </button>
-    <ul class="nav navbar-nav">
-        <li class="nav-item px-3 dropdown d-md-down-none">
+    <button class="navbar-toggler sidebar-toggler d-md-down-none" data-toggle="sidebar-lg-show" type="button">
+        <span class="navbar-toggler-icon"></span>
+    </button>
 
-		<a class="nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
-          aria-expanded="false">Dashboard
-            </a>
+
+
+
+
+
+    <ul class="nav navbar-nav ml-auto">
+        <li class="nav-item dropdown d-md-down-none" style="padding-left:20px; padding-right: 20px;">
+
+		<a class="nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+			Dashboard
+        </a>
 	        <div class="dropdown-menu dropdown-menu-right dropdown-menu-lg">
 	          <div class="dropdown-header text-center">
 	            <strong>Dashboard Menu (Header)</strong>
@@ -33,15 +40,47 @@
 	            <i class="icon-speedometer text-warning"></i> Dashboard Item</a>
 	        </div>
         </li>
-        <li class="nav-item px-3">
-            <a class="nav-link" href="#">
-                Users
-            </a>
+        <li class="nav-item dropdown d-md-down-none" style="padding-left:20px; padding-right: 20px;">
+
+		<a class="nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+			Users
+        </a>
+	        <div class="dropdown-menu dropdown-menu-right dropdown-menu-lg">
+	          <div class="dropdown-header text-center">
+	            <strong>Dashboard Menu (Header)</strong>
+	          </div>
+	          <a class="dropdown-item" href="#">
+	            <i class="icon-user-follow text-success"></i> Dashboard Item</a>
+	          <a class="dropdown-item" href="#">
+	            <i class="icon-user-unfollow text-danger"></i> Dashboard Item</a>
+	          <a class="dropdown-item" href="#">
+	            <i class="icon-chart text-info"></i> Dashboard Item</a>
+	          <a class="dropdown-item" href="#">
+	            <i class="icon-basket-loaded text-primary"></i> Dashboard Item</a>
+	          <a class="dropdown-item" href="#">
+	            <i class="icon-speedometer text-warning"></i> Dashboard Item</a>
+	        </div>
         </li>
-        <li class="nav-item px-3">
-            <a class="nav-link" href="#">
-                Settings
-            </a>
+        <li class="nav-item dropdown d-md-down-none" style="padding-left:20px; padding-right: 20px;">
+
+		<a class="nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+			Settings
+        </a>
+	        <div class="dropdown-menu dropdown-menu-right dropdown-menu-lg">
+	          <div class="dropdown-header text-center">
+	            <strong>Dashboard Menu (Header)</strong>
+	          </div>
+	          <a class="dropdown-item" href="#">
+	            <i class="icon-user-follow text-success"></i> Dashboard Item</a>
+	          <a class="dropdown-item" href="#">
+	            <i class="icon-user-unfollow text-danger"></i> Dashboard Item</a>
+	          <a class="dropdown-item" href="#">
+	            <i class="icon-chart text-info"></i> Dashboard Item</a>
+	          <a class="dropdown-item" href="#">
+	            <i class="icon-basket-loaded text-primary"></i> Dashboard Item</a>
+	          <a class="dropdown-item" href="#">
+	            <i class="icon-speedometer text-warning"></i> Dashboard Item</a>
+	        </div>
         </li>
     </ul>
     <ul class="nav navbar-nav ml-auto">
@@ -176,6 +215,36 @@
           </a>
         </div>
       </li>
+		<li class="nav-item dropdown d-md-down-none" style="padding-left:20px; padding-right: 20px;">
+            <a class="nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                <i class="fa fa-building" aria-hidden="true"></i> Company Name
+            </a>
+            <div class="dropdown-menu dropdown-menu-right dropdown-menu-lg">
+                <div class="dropdown-header text-center">
+                    <strong>Manage Companies</strong>
+                </div>
+
+                 {{-- List all remaining companies here--}}
+                    <a class="dropdown-item" href="#">
+                        <div class="small mb-1">CompanyName
+                        <span class="float-right">
+                        </span>
+                        </div>
+                        <span class="progress progress-xs">
+                            <div class="progress-bar bg-info" role="progressbar" style="width: 0%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                        </span>
+                    </a>
+
+
+                <div class="dropdown-divider"></div>
+
+                {{-- Add Company--}}
+
+                <a class="dropdown-item" href="#">
+                    <i class="fa fa-plus"></i> Add Company</a>
+
+            </div>
+        </li>
       <li class="nav-item dropdown d-md-down-none">
         <a class="nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
           aria-expanded="false">
@@ -263,49 +332,21 @@
       <li class="nav-item dropdown">
         <a class="nav-link nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
           aria-expanded="false">
-          <img class="img-avatar" src="/img/avatars/6.jpg" alt="admin@bootstrapmaster.com">
+          <img class="img-avatar" src="/img/avatars/6.jpg" alt="admin@bootstrapmaster.com">{{ auth()->user()->name }}
         </a>
-        <div class="dropdown-menu dropdown-menu-right">
-          <div class="dropdown-header text-center">
-            <strong>Account</strong>
-          </div>
-          <a class="dropdown-item" href="#">
-            <i class="fa fa-bell-o"></i> Updates
-            <span class="badge badge-info">42</span>
-          </a>
-          <a class="dropdown-item" href="#">
-            <i class="fa fa-envelope-o"></i> Messages
-            <span class="badge badge-success">42</span>
-          </a>
-          <a class="dropdown-item" href="#">
-            <i class="fa fa-tasks"></i> Tasks
-            <span class="badge badge-danger">42</span>
-          </a>
-          <a class="dropdown-item" href="#">
-            <i class="fa fa-comments"></i> Comments
-            <span class="badge badge-warning">42</span>
-          </a>
-          <div class="dropdown-header text-center">
-            <strong>Settings</strong>
-          </div>
-          <a class="dropdown-item" href="#">
-            <i class="fa fa-user"></i> Profile</a>
-          <a class="dropdown-item" href="#">
-            <i class="fa fa-wrench"></i> Settings</a>
-          <a class="dropdown-item" href="#">
-            <i class="fa fa-usd"></i> Payments
-            <span class="badge badge-dark">42</span>
-          </a>
-          <a class="dropdown-item" href="#">
-            <i class="fa fa-file"></i> Projects
-            <span class="badge badge-primary">42</span>
-          </a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">
-            <i class="fa fa-shield"></i> Lock Account</a>
-          <a class="dropdown-item" href="#">
-            <i class="fa fa-lock"></i> Logout</a>
-        </div>
+            <div class="dropdown-menu dropdown-menu-right">
+                <div class="dropdown-header text-center">
+                    <strong>Control Panel</strong>
+                </div>
+                <a class="dropdown-item" href="#">
+                    <i class="fa fa-user"></i> Profile</a>
+                <a class="dropdown-item" href="{{  route('admincp.dashboard') }}">
+                    <i class="fa fa-wrench"></i> Control Panel</a>
+
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="{{ route('staff.logout') }}">
+                    <i class="fa fa-lock"></i> Logout</a>
+            </div>
       </li>
     </ul>
     <button class="navbar-toggler aside-menu-toggler d-md-down-none" data-toggle="aside-menu-lg-show" type="button">
