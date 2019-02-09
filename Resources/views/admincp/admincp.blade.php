@@ -66,5 +66,12 @@
   <script src="{{ asset('js/perfect-scrollbar.min.js') }}"></script>
   <script src="{{ asset('js/coreui.min.js') }}"></script>
 
+<!-- test -->  
+  
+  
+@yield('scripts')
+
+  
+  
 </body>
 </html>

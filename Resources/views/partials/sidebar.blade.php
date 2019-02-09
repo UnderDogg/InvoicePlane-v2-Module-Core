@@ -9,8 +9,8 @@
 			</li>
 			<li class="nav-title">Staff, Roles, Permissions</li>
 			<li class="nav-item">
-				<a class="nav-link" href="/admincp/users">
-					<i class="nav-icon icon-user"></i> Users
+				<a class="nav-link" href="/admincp/staff">
+					<i class="nav-icon icon-user"></i> Staff Members
 				</a>
 			</li>
 			<li class="nav-item">
