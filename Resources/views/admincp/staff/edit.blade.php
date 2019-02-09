@@ -1,6 +1,5 @@
-@extends('core::admincp.admincp')
 
-@section('content')
+
 <div class="flex-container">
   <div class="columns m-t-10">
     <div class="column">
@@ -68,17 +67,3 @@
   </form>
 
 </div> <!-- end of .flex-container -->
-@endsection
-
-
-@section('scripts')
-<script>
-  var app = new Vue({
-    el: '#app',
-    data: {
-      password_options: 'keep',
-      rolesSelected: {!!$staffmember->roles->pluck('id') !!}
-    }
-  });
-</script>
-@endsection

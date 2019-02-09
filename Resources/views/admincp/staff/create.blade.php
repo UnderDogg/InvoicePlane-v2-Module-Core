@@ -1,6 +1,5 @@
-@extends('core::admincp.admincp')
 
-@section('content')
+
 <div class="container-fluid">
 
     <div class="row">
@@ -293,7 +292,7 @@
         </div>
     </form>
 </div> <!-- end of .flex-container -->
-@endsection
+
 
 @section('scripts')
 <script src="{{ asset('js/staff.js') }}"></script>
